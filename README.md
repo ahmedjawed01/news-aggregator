@@ -20,9 +20,11 @@ Following are instructions on setting up your development environment.
 
 1. Install [virtualenv](https://pypi.org/project/virtualenv/) create and activate virtualenv
 2. Clone this repo and `cd news-aggregator`
-3. Run `pip3 install -r requirements.txt` to install the dependencies for this project.
-4. Update .env file `NEWS_API_KEY` with your `NEWS API KEYS` and other things if required.
-5. RUN `python3 main.py`
+3. cp .env.example .env
+4. Replace NEWS_API_KEY with your News API keys.
+5. Run `pip3 install -r requirements.txt` to install the dependencies for this project.
+6. Update .env file `NEWS_API_KEY` with your `NEWS API KEYS` and other things if required.
+7. RUN `python3 main.py`
 
 ### Setting Frontend
 
