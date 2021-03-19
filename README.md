@@ -19,7 +19,7 @@ Following are instructions on setting up your development environment.
 ### Setting API's 
 
 1. Install [virtualenv](https://pypi.org/project/virtualenv/) create and activate virtualenv
-2. Clone this repo and `cd news_aggregator`
+2. Clone this repo and `cd news-aggregator`
 3. Run `pip3 install -r requirements.txt` to install the dependencies for this project.
 4. Update .env file `NEWS_API_KEY` with your `NEWS API KEYS` and other things if required.
 5. RUN `python3 main.py`
@@ -27,7 +27,7 @@ Following are instructions on setting up your development environment.
 ### Setting Frontend
 
 1. Install [nodejs](https://nodejs.org/en/)
-2. Change directory to `cd news_aggregator/react-news-app/`
+2. Change directory to `cd news-aggregator/react-news-app/`
 3. Run `npm install`
 4. Make sure to update src/config/index.js file with you running server url, by default it will be 0.0.0.0:8000
 5. Run `npm start`
